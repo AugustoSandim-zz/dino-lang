@@ -1,0 +1,52 @@
+/**********************************************************************
+* 
+* Autor: Augusto Sandim
+* Ciência da Computação .
+*
+***********************************************************************/
+// main()
+
+INIFIO
+  INVOCAR("Hello, WELCOME TO DINO LANG \n");
+
+  // CONDIÇÃO IF E ELSE IF
+  SERA?(1>2)
+    INVOCAR("Acertou mizaravi\n");
+  FEL FIF(4>2)
+    INVOCAR("Ah muleke\n");
+  FIM
+
+  // DECLARANDO FUNÇÃO
+  BOFA(INF SOMAR(INF A, INF B)) 
+
+    INF RESULTADO = A + B; 
+
+    BORA CUMPADI RESULTADO;
+  FIM
+
+  // DECLARANDO VARIAVEIS
+  INF A = 1;
+  INF B = 2;
+
+  // EXECUTANDO FUNCÃO
+  INF SHOW = FAZ FAI SOMAR(A, B);  
+  INVOCAR("VALOR: %d\n", SHOW);
+
+  // WHILE
+  INF I = 0;
+  VAI TENTANDO(I < 5)
+    INVOCAR("A%d ", I);
+    I++;
+  FIM
+
+  // FOR
+  MANDA VE(INF I = 0; I < 5; I++ )
+    INVOCAR("F %d\n", I);
+  FIM
+
+  // ERROR
+  // IMPRIMI "ISSO É UM ERRO"
+
+  // RETORNO
+  BORA CUMPADI 0;
+FIM

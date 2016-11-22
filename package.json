@@ -1,0 +1,14 @@
+{
+  "name": "dino-lang",
+  "description": "DINO lang",
+  "version": "0.0.1",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "crypto": "*",
+    "express": "*",
+    "cors": "*"
+  }
+}
